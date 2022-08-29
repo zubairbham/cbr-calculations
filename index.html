@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBR-Value Calculations</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+    <header id="header-bar">
+        <p id="copyright">Copyrights 2022 &copy; Zubair Ahmed Bham</p>
+        <div id="icon-container" class="icon-container-class">
+            <i id="menu-btn" class="fa-solid fa-bars"></i> <!-- Menu Button -->
+            <i id="mail-btn" class="fa-solid fa-envelope mail-btn-class"></i> <!-- Mail Button -->
+            <p>zubairbham32@gmail.com</p>
+        </div>
+        <div id="show-mail-box" class="icon-container-class">
+            <i class="fa-solid fa-envelope mail-btn-class"></i>
+            <p>zubairbham32@gmail.com</p>
+        </div>
+    </header>
+    <h3 id="my-heading">CBR-Value Calculations</h3>
+    <table>
+        <thead>
+            <tr>
+            <th>No.</th>
+            <th>Penetration (mm)</th>
+            <th>Load (kN)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>0.5</td>
+                <td><input id="load1" class="load-input" type="text"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>1.0</td>
+                <td><input id="load2" class="load-input" type="text"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>1.5</td>
+                <td><input id="load3" class="load-input" type="text"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>2.0</td>
+                <td><input id="load4" class="load-input" type="text"></td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">5</td>
+                <td style="font-weight: bold;">2.5*</td>
+                <td><input id="load5" class="load-input" type="text"></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>3.0</td>
+                <td><input id="load6" class="load-input" type="text"></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>3.5</td>
+                <td><input id="load7" class="load-input" type="text"></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>4.0</td>
+                <td><input id="load8" class="load-input" type="text"></td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>4.5</td>
+                <td><input id="load9" class="load-input" type="text"></td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">8</td>
+                <td style="font-weight: bold;">5.0*</td>
+                <td><input id="load10" class="load-input" type="text"></td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="calc-btn">Calculate</button>
+
+    <div id="result-box" class="result-container">
+        <p id="result"></p>
+    </div>
+
+
+    <script src="logic.js"></script>
+</body>
+
+</html>
